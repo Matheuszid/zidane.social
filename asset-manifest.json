@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zidane.social/static/css/main.073c9b0a.css",
+    "main.js": "/zidane.social/static/js/main.c6213dc1.js",
+    "static/js/787.c6701afe.chunk.js": "/zidane.social/static/js/787.c6701afe.chunk.js",
+    "static/media/logo.svg": "/zidane.social/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/zidane.social/index.html",
+    "main.073c9b0a.css.map": "/zidane.social/static/css/main.073c9b0a.css.map",
+    "main.c6213dc1.js.map": "/zidane.social/static/js/main.c6213dc1.js.map",
+    "787.c6701afe.chunk.js.map": "/zidane.social/static/js/787.c6701afe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c6213dc1.js"
+  ]
+}
