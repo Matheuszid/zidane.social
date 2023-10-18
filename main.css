@@ -1,10 +1,9 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
   }
   
   body {
-    
-    margin: 0px;
     font-family: 'segoe ui';
     background: #222222;
     font-family: 'Fire Code', monospace ;
@@ -151,4 +150,42 @@
 .read-more a {
     text-decoration: none;
     color: #007BFF;
+}
+
+
+#container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 40vh;
+}
+
+#devimg {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+#devimg img {
+  background: rgb(255, 255, 255);
+  border-radius: 5%;
+  width: 200px;
+  opacity: 0.2;
+}
+
+
+#container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+#titulo_h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(224, 224, 224);
 }
