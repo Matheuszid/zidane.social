@@ -144,6 +144,7 @@ if(checkbox2.checked == true && checkbox1.checked == true && checkbox3.checked =
     button.disabled = false;}
  else{
         button.disabled = true;
+
     }
 
 });    
