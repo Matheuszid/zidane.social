@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!---MAIN.CSS-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+
+    <!--ICONS GOOGLE-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+</head>
+<body>
+
+    <div id="container">
+        <div id="login-form">
+            <h1>Registro</h1>
+            <input type="text" name="CPF" id="CPF" maxlength="11" placeholder="CPF">
+            <input type="email" name="EMAIL" id="EMAIL" placeholder="EMAIL">
+            <p>
+                <input type="password" name="SENHA" id="SENHA" placeholder="SENHA" maxlength="48"><i class="fa fa-eye" id="text"></i>
+                <i class="fa fa-eye-slash" id="pass"></i>
+            </p>
+            <button id="btn" type="button">Registrar</button>
+            <p>
+                
+            </p>
+        </div>
+    </div>
+
+
+    <div id="container2">
+        <div id="check-login">
+            <p id="checkbox">
+                <label for="checkbox1">A senha deve ter 1 letra minuscula</label>
+                <input type="checkbox" id="checkbox1" value="Teste">
+                <label for="checkbox2"> A senha deve ter 8 caracteres</label>
+                <input type="checkbox" id="checkbox2">
+                <label for="checkbox3"> A senha deve ter 1 letra maiúscula</label>
+                <input type="checkbox" id="checkbox3">
+                <label for="checkbox4"> A senha deve ter 1 número</label>
+                <input type="checkbox" id="checkbox4">
+                <label for="checkbox5"> A senha deve ter 1 caractere especial </label>
+                <input type="checkbox" id="checkbox5">
+
+            </p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
